@@ -33,11 +33,11 @@
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox4 = new System.Windows.Forms.TextBox();
-            this.slider1 = new ZPK.slider();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
+            this.slider1 = new ZPK.slider();
             this.SuspendLayout();
             // 
             // button1
@@ -78,20 +78,6 @@
             this.textBox4.Size = new System.Drawing.Size(100, 20);
             this.textBox4.TabIndex = 6;
             // 
-            // slider1
-            // 
-            this.slider1.bgColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.slider1.ColorBlue = 80;
-            this.slider1.ColorGreen = 56;
-            this.slider1.ColorRed = 12;
-            this.slider1.Location = new System.Drawing.Point(221, 42);
-            this.slider1.Name = "slider1";
-            this.slider1.Size = new System.Drawing.Size(444, 247);
-            this.slider1.Slider1V = 0;
-            this.slider1.Slider2V = 0;
-            this.slider1.Slider3V = 0;
-            this.slider1.TabIndex = 0;
-            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -129,11 +115,26 @@
             this.label4.TabIndex = 10;
             this.label4.Text = "Kolor RGB";
             // 
+            // slider1
+            // 
+            this.slider1.bgColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.slider1.ColorBlue = 50;
+            this.slider1.ColorGreen = 150;
+            this.slider1.ColorRed = 250;
+            this.slider1.Location = new System.Drawing.Point(215, 31);
+            this.slider1.Name = "slider1";
+            this.slider1.Size = new System.Drawing.Size(395, 241);
+            this.slider1.Slider1V = 0;
+            this.slider1.Slider2V = 0;
+            this.slider1.Slider3V = 0;
+            this.slider1.TabIndex = 11;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.slider1);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -143,7 +144,6 @@
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.slider1);
             this.Name = "Form1";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -151,7 +151,6 @@
         }
 
         #endregion
-        private ZPK.slider slider1;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.TextBox textBox3;
@@ -161,6 +160,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
+        private ZPK.slider slider1;
     }
 }
 
