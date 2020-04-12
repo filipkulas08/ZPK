@@ -1,0 +1,7 @@
+C:\Users\Filip\source\repos\ZPK\ZPK\bin\Debug\ZPK.dll
+C:\Users\Filip\source\repos\ZPK\ZPK\bin\Debug\ZPK.pdb
+C:\Users\Filip\source\repos\ZPK\ZPK\obj\Debug\ZPK.csprojAssemblyReference.cache
+C:\Users\Filip\source\repos\ZPK\ZPK\obj\Debug\ZPK.slider.resources
+C:\Users\Filip\source\repos\ZPK\ZPK\obj\Debug\ZPK.csproj.GenerateResource.cache
+C:\Users\Filip\source\repos\ZPK\ZPK\obj\Debug\ZPK.dll
+C:\Users\Filip\source\repos\ZPK\ZPK\obj\Debug\ZPK.pdb
